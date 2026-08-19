@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+    <header style="background-color: #E56904;"> 
+                
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="assests/logo2x.svg" alt="Logo" class="img-fluid" style="width: 100px;">
+            </a>
+
+            <!-- Botão hambúrguer (mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active text-black fw-bold" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black fw-bold" href="#">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black fw-bold" href="#">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black fw-bold" href="#">Depoimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black fw-bold" href="#">Contato</a>
+                </li>
+                </ul>
+            </div>
+
+            </div>
+        </nav>
+
+    </header>
+        <section class="d-flex flex-column justify-content-center align-items-center text-center position-relative" 
+                style="background-image: url('assests/BG_HOME_720.jpg'); background-size: cover; background-position: center; min-height: 100vh;">
+
+        <p class="fs-1 fs-md-1 fw-bolder mb-3 mb-md-4 px-3" style="color: aliceblue;">
+            Barba feita,<br> confiança renovada.
+        </p>
+
+        <a href="#" class="btn active btn-agendar px-4 px-md-5 py-2 py-md-3" role="button" data-bs-toggle="button" aria-pressed="true" style="background-color: #E56904; border-color: #E56904; color: white;">
+            Agenda seu corte agora!
+        </a>
+
+        </section>
+        <section class="d-flex flex-column justify-content-center" style="background-color: #232323 border-0 p-2;">
+
+            <div class="card">
+            <div class="card-body">
+                <h3 class="card-title text-center">Sobre Nós</h3>
+                <p class="card-text fs-5 text-center">Mais que uma barbearia, um espaço dedicado à tradição do cuidado masculino. <br>
+                            Aqui,<strong> técnica</strong> apurada e atendimento de <strong>respeito</strong> se unem para oferecer uma experiência autêntica, digna dos verdadeiros clássicos da barbearia.
+                            Cada corte é feito com precisão. Cada barba, com a atenção que ela merece.</p>
+                <p class="card-text"></p>
+            </div>
+            <img src="assests/FOTO_CARD_NOS.jpg" class="card-img-bottom" alt="..." style="min-height: 60vh; " >
+            </div>                
+        </section>
+        <section style="background-color: #E56904;" class="py-5">
+            <h1 class="d-flex justify-content-center text-center" style="color: white;">Confira todos<br> os nossos Serviços</h1>
+            
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card h-100 border-0 p-2">
+                            <img src="assests/card-corte.jpg" class="card-img-top" alt="corte de cabelo" style="height: 200px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Corte Clássico</h5>
+                                <p class="card-text">Cortes tradicionais e modernos, feitos com precisão e acabamento impecável.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 p-2">
+                            <img src="assests/card-barba.jpg" class="card-img-top" alt="corte de barba" style="height: 200px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Barba Completa</h5>
+                                <p class="card-text">Modelagem e aparo de barba com técnica apurada, respeitando o estilo de cada cliente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 p-2">
+                            <img src="assests/card-hidratação.png" class="card-img-top" alt="hidratação profunda" style="height: 200px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Hidratação Capilar</h5>
+                                <p class="card-text">Tratamento que devolve força e brilho aos fios, cuidando da saúde do cabelo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 p-2">
+                            <img src="assests/card-infantil .jpg" class="card-img-top" alt="corte dos mirins" style="height: 200px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Corte Infantil</h5>
+                                <p class="card-text">Atendimento paciente e cuidadoso, pensado para deixar as crianças confortáveis e estilosas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Botão CTA -->
+                <div class="d-flex justify-content-center mt-5">
+                    <a href="#" class="btn btn-lg fw-bold px-5 py-3" style="background-color: #232323; color: white;">
+                        Horários Disponíveis
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <h1 class="d-flex justify-content-center text-center" style="color: #232323 p-5;">Depoimentos<br> que nos fortalece</h1>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 col-lg-6">
+
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assests/depo01.png" class="d-block w-100" alt="Depoimento de cliente 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assests/depo02.png" class="d-block w-100" alt="Depoimento de cliente 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assests/depo03.png" class="d-block w-100" alt="Depoimento de cliente 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
